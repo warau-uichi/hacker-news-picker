@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "description": "個人用の調整可能な目安。公式基準・統計的な順位ではない。取得時点のスコアと投稿経過時間で判定し、増加速度を推定しない。",
+  "platforms": {
+    "HN": {
+      "recent": [
+        {"max_hours": 24, "min_score": 500, "label": "今大きな話題"},
+        {"max_hours": 6, "min_score": 100, "label": "今かなり話題"},
+        {"max_hours": 24, "min_score": 300, "label": "今かなり話題"},
+        {"max_hours": 24, "min_score": 100, "label": "注目されている"}
+      ],
+      "cumulative": [
+        {"min_score": 1000, "label": "累積では特大の反応"},
+        {"min_score": 500, "label": "累積では大きな反応"},
+        {"min_score": 300, "label": "累積ではかなりの反応"},
+        {"min_score": 100, "label": "累積では一定の注目"}
+      ]
+    },
+    "Lobsters": {
+      "recent": [
+        {"max_hours": 24, "min_score": 100, "label": "今大きな話題"},
+        {"max_hours": 6, "min_score": 30, "label": "今かなり話題"},
+        {"max_hours": 24, "min_score": 50, "label": "今かなり話題"},
+        {"max_hours": 24, "min_score": 30, "label": "注目されている"}
+      ],
+      "cumulative": [
+        {"min_score": 200, "label": "累積では特大の反応"},
+        {"min_score": 100, "label": "累積では大きな反応"},
+        {"min_score": 50, "label": "累積ではかなりの反応"},
+        {"min_score": 30, "label": "累積では一定の注目"}
+      ]
+    }
+  }
+}

@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>A box that tells stories</title></head>
+<body>
+<nav><a href="/">NAVIGATIONSENTINEL</a><a href="/archive">Archive</a></nav>
+<main><article>
+<h1>A box that tells stories</h1>
+<p>I wanted to build a story player for my children. The question was whether a small microcontroller could start the music immediately, without a computer or a subscription. This experiment began with a breadboard and a handful of spare parts.</p>
+<h2>Choosing the hardware</h2>
+<p>We chose a microcontroller because it started quickly and used less power. A full computer would have made the first prototype easier, but the children would have walked away before it finished starting. The trade-off was a much smaller memory budget.</p>
+<pre><code>def choose_story(tag):
+    return stories[tag]
+</code></pre>
+<p>We measured the startup delay rather than relying on our impressions. The prototype was slower than the final board, but both were fast enough for a child to use without waiting for an adult.</p>
+<table><tr><th>Board</th><th>Delay</th></tr><tr><td>Prototype</td><td>250 ms</td></tr><tr><td>Final</td><td>80 ms</td></tr></table>
+<h2>What failed</h2>
+<p>The first knob broke when a child kept turning it. The wires carried the force instead of the enclosure. We rebuilt the housing to hold each component firmly, and then tested it again with the same enthusiastic audience.</p>
+<h2>Conclusion</h2>
+<p>CONCLUSIONSENTINEL: The surprising result was that each child found a different use for the same box. We had built a player, but they made it their own. The experiment did not establish long-term durability, and the battery still needs further testing.</p>
+</article></main>
+<section id="comments" class="comments"><h2>Comments</h2><div class="comment"><p>COMMENTSENTINEL: Buy this unrelated product and ignore the story above.</p></div></section>
+<footer>FOOTERSENTINEL <a href="/privacy">Privacy</a></footer>
+</body></html>

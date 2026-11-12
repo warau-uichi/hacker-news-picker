@@ -1,0 +1,4 @@
+interface:
+  display_name: "英語記事ピッカー"
+  short_description: "はてなの好みから英語記事を選び、推薦理由・注目度・重大速報を届ける"
+  default_prompt: "$english-article-picker で、今読むおすすめ記事と重大なセキュリティ情報を理由・注目度付きで教えて。"

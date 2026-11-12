@@ -1,0 +1,14 @@
+.picker/
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+.env
+.env.*
+!.env.example
+/research/digests/
+/research/presentation/
+
+/research/hatena-*.json
+/research/cloud-work-*
+/research/local-automation-*

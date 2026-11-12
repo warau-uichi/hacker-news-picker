@@ -1,0 +1,73 @@
+{
+  "timezone": "Asia/Tokyo",
+  "recommendation_count": 5,
+  "critical_cvss": 9.0,
+  "priority": "利用者の明示した希望と保存記事本文から得た関心を優先する。注目度は補助材料とし、人気で足切りしない。",
+  "explicit_preferences": [],
+  "products": [],
+  "security": "CVSS9以上は製品に関係なく必須。CA・証明書・秘密鍵・署名鍵・配布や認証の信頼基盤、広範な被害や個人に波及する事象もCVSS/CVEに関係なく拾う。利用バージョン・設定は未確認。",
+  "feeds": [
+    {
+      "name": "metafilter",
+      "url": "https://feeds.feedburner.com/Metafilter",
+      "lane": "article"
+    },
+    {
+      "name": "kottke",
+      "url": "https://feeds.kottke.org/main",
+      "lane": "article"
+    },
+    {
+      "name": "pudding",
+      "url": "https://pudding.cool/rss.xml",
+      "lane": "article"
+    },
+    {
+      "name": "jpcert",
+      "url": "https://www.jpcert.or.jp/rss/jpcert.rdf",
+      "lane": "security"
+    },
+    {
+      "name": "django",
+      "url": "https://www.djangoproject.com/rss/weblog/",
+      "lane": "security"
+    },
+    {
+      "name": "postgresql",
+      "url": "https://www.postgresql.org/news.rss",
+      "lane": "security"
+    },
+    {
+      "name": "kubernetes-cve",
+      "url": "https://kubernetes.io/docs/reference/issues-security/official-cve-feed/feed.xml",
+      "lane": "security"
+    },
+    {
+      "name": "martin-releases",
+      "url": "https://github.com/maplibre/martin/releases.atom",
+      "lane": "security"
+    }
+  ],
+  "discovery_pages": [
+    {
+      "name": "kottke-page",
+      "url": "https://kottke.org/"
+    },
+    {
+      "name": "aws-security-page",
+      "url": "https://aws.amazon.com/security/security-bulletins/"
+    },
+    {
+      "name": "python-security-page",
+      "url": "https://www.python.org/news/security/"
+    },
+    {
+      "name": "nginx-security-page",
+      "url": "https://nginx.org/en/security_advisories.html"
+    },
+    {
+      "name": "martin-security-api",
+      "url": "https://api.github.com/repos/maplibre/martin/security-advisories"
+    }
+  ]
+}
